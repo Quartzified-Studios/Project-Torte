@@ -62,6 +62,78 @@ TextureImporter:
   - first:
       213: 6915823054078342242
     second: wooden_floor_tilemap_22
+  - first:
+      213: 2498683882408715137
+    second: wooden_floor_tilemap_6
+  - first:
+      213: -7517380566525261627
+    second: wooden_floor_tilemap_13
+  - first:
+      213: 841269158091684683
+    second: wooden_floor_tilemap_18
+  - first:
+      213: 7557776340711121392
+    second: wooden_floor_tilemap_23
+  - first:
+      213: -2486358156486917715
+    second: wooden_floor_tilemap_24
+  - first:
+      213: 1381524237532709732
+    second: wooden_floor_tilemap_25
+  - first:
+      213: 3376731022008257536
+    second: wooden_floor_tilemap_26
+  - first:
+      213: -7957291914823722387
+    second: wooden_floor_tilemap_27
+  - first:
+      213: 5935519213557740627
+    second: wooden_floor_tilemap_28
+  - first:
+      213: 3106958173190294996
+    second: wooden_floor_tilemap_29
+  - first:
+      213: -4237916353292119058
+    second: wooden_floor_tilemap_30
+  - first:
+      213: -5408586157464865463
+    second: wooden_floor_tilemap_31
+  - first:
+      213: 2376688193075979429
+    second: wooden_floor_tilemap_32
+  - first:
+      213: -7865188681481637829
+    second: wooden_floor_tilemap_33
+  - first:
+      213: 3355921016089309396
+    second: wooden_floor_tilemap_34
+  - first:
+      213: 8066328859705129105
+    second: wooden_floor_tilemap_35
+  - first:
+      213: 6893634110786405814
+    second: wooden_floor_tilemap_36
+  - first:
+      213: 8916338833136971126
+    second: wooden_floor_tilemap_37
+  - first:
+      213: -4758767249756523336
+    second: wooden_floor_tilemap_38
+  - first:
+      213: -6787439654053321463
+    second: wooden_floor_tilemap_39
+  - first:
+      213: 3801323480917920162
+    second: wooden_floor_tilemap_40
+  - first:
+      213: 3181943690600857328
+    second: wooden_floor_tilemap_41
+  - first:
+      213: 7866171521056824791
+    second: wooden_floor_tilemap_42
+  - first:
+      213: -7810654935980415394
+    second: wooden_floor_tilemap_43
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -162,12 +234,12 @@ TextureImporter:
       name: wooden_floor_tilemap_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 199
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,12 +255,12 @@ TextureImporter:
       name: wooden_floor_tilemap_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 33
         y: 199
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,12 +276,12 @@ TextureImporter:
       name: wooden_floor_tilemap_2
       rect:
         serializedVersion: 2
-        x: 67
+        x: 66
         y: 199
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -225,12 +297,12 @@ TextureImporter:
       name: wooden_floor_tilemap_3
       rect:
         serializedVersion: 2
-        x: 100
+        x: 99
         y: 199
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +318,12 @@ TextureImporter:
       name: wooden_floor_tilemap_4
       rect:
         serializedVersion: 2
-        x: 133
+        x: 132
         y: 199
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,12 +339,12 @@ TextureImporter:
       name: wooden_floor_tilemap_5
       rect:
         serializedVersion: 2
-        x: 166
+        x: 165
         y: 199
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,12 +360,12 @@ TextureImporter:
       name: wooden_floor_tilemap_7
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 166
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,12 +381,12 @@ TextureImporter:
       name: wooden_floor_tilemap_8
       rect:
         serializedVersion: 2
-        x: 34
+        x: 33
         y: 166
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,12 +402,12 @@ TextureImporter:
       name: wooden_floor_tilemap_9
       rect:
         serializedVersion: 2
-        x: 67
+        x: 66
         y: 166
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -351,12 +423,12 @@ TextureImporter:
       name: wooden_floor_tilemap_10
       rect:
         serializedVersion: 2
-        x: 100
+        x: 99
         y: 166
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -372,12 +444,12 @@ TextureImporter:
       name: wooden_floor_tilemap_11
       rect:
         serializedVersion: 2
-        x: 133
+        x: 132
         y: 166
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -393,12 +465,12 @@ TextureImporter:
       name: wooden_floor_tilemap_12
       rect:
         serializedVersion: 2
-        x: 166
+        x: 165
         y: 166
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,12 +486,12 @@ TextureImporter:
       name: wooden_floor_tilemap_14
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 133
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -435,12 +507,12 @@ TextureImporter:
       name: wooden_floor_tilemap_15
       rect:
         serializedVersion: 2
-        x: 34
+        x: 33
         y: 133
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,12 +528,12 @@ TextureImporter:
       name: wooden_floor_tilemap_16
       rect:
         serializedVersion: 2
-        x: 67
+        x: 66
         y: 133
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -477,12 +549,12 @@ TextureImporter:
       name: wooden_floor_tilemap_17
       rect:
         serializedVersion: 2
-        x: 100
+        x: 99
         y: 133
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -498,12 +570,12 @@ TextureImporter:
       name: wooden_floor_tilemap_19
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 100
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -519,12 +591,12 @@ TextureImporter:
       name: wooden_floor_tilemap_20
       rect:
         serializedVersion: 2
-        x: 34
+        x: 33
         y: 100
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -540,12 +612,12 @@ TextureImporter:
       name: wooden_floor_tilemap_21
       rect:
         serializedVersion: 2
-        x: 67
+        x: 66
         y: 100
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -561,12 +633,12 @@ TextureImporter:
       name: wooden_floor_tilemap_22
       rect:
         serializedVersion: 2
-        x: 100
+        x: 99
         y: 100
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

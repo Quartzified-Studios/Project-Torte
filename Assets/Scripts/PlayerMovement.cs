@@ -4,31 +4,38 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement instance;
+
     //Components
     Rigidbody2D rigid;
     Animator anim;
+    public InputMaster controls;
 
     //Movement Speed
     [Header("")]
     public float moveSpeed;
 
-    [HideInInspector]
     public static bool canMove = true;
-    float x;
-    float y;
+    Vector2 direction;
 
     private void Awake()
     {
+        if (instance == null) instance = this;
+        else Destroy(gameObject);
+
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        controls = new InputMaster();
+
+    }
+
+    private void Start()
+    {
+        RegisterInputs();
     }
 
     private void Update()
     {
-        //Get Input Values
-        x = Input.GetAxis("Horizontal");
-        y = Input.GetAxis("Vertical");
-
         MovementAnim();
     }
 
@@ -37,12 +44,28 @@ public class PlayerMovement : MonoBehaviour
         Movement();
     }
 
+    public void OnEnable()
+    {
+        controls.Enable();
+    }
+
+    public void OnDisable()
+    {
+        controls.Disable();
+    }
+
+    void RegisterInputs()
+    {
+        controls.Player.Movement.performed += ctx => direction = ctx.ReadValue<Vector2>();
+        controls.Player.Movement.canceled += ctx => direction = Vector2.zero;
+    }
+
     public void Movement()
     {
         if (canMove)
         {
             //Create Direction
-            Vector2 move = Vector2.right * x + Vector2.up * y;
+            Vector2 move = Vector2.right * direction.x + Vector2.up * direction.y;
 
             //Normalize 
             move.Normalize();
@@ -58,10 +81,10 @@ public class PlayerMovement : MonoBehaviour
     public void MovementAnim()
     {
         // Set Input Values
-        if(x != 0 || y != 0)
+        if(direction.x != 0 || direction.y != 0)
         {
-            anim.SetFloat("xMove", x);
-            anim.SetFloat("yMove", y);
+            anim.SetFloat("xMove", direction.x);
+            anim.SetFloat("yMove", direction.y);
         }
 
         //Check if Velocity is Zero or not

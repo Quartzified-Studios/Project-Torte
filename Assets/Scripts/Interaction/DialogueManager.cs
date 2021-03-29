@@ -70,4 +70,12 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text = text.Dequeue();
         }
     }
+
+    public void ClearDisableDialogue()
+    {
+        text.Clear();
+        actor.Clear();
+
+        canvas.SetActive(false);
+    }
 }

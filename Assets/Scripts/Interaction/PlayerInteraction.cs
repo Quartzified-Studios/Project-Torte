@@ -2,7 +2,34 @@
 
 public class PlayerInteraction : MonoBehaviour
 {
-    private Interactable interactable;
+    public static PlayerInteraction instance;
+
+    public Interactable interactable;
+
+    InputMaster controls;
+
+    private void Awake()
+    {
+        if (instance == null) instance = this;
+        else Destroy(gameObject);
+
+        controls = new InputMaster();
+    }
+
+    private void Start()
+    {
+        controls.Player.Interaction.performed += ctx => InteractWithInteractable();
+    }
+
+    private void OnEnable()
+    {
+        controls.Enable();
+    }
+
+    private void OnDisable()
+    {
+        controls.Disable();
+    }
 
     //If there's no interactable then set it
     private void OnTriggerEnter2D(Collider2D collision)
@@ -23,12 +50,13 @@ public class PlayerInteraction : MonoBehaviour
         {
             interactable.changeStateSign();
             interactable = null;
+            DialogueManager.instance.ClearDisableDialogue();
         }
     }
 
-    private void Update()
+    void InteractWithInteractable()
     {
-        if (Input.GetMouseButtonDown(0) && interactable != null)
+        if (interactable != null)
         {
             interactable.Interact();
         }

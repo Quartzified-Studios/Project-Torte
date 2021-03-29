@@ -6,7 +6,11 @@ public abstract class Interactable : MonoBehaviour
 
     public void changeStateSign()
     {
-        interactSign.SetActive(!interactSign.activeSelf);
+        if(interactSign != null)
+        {
+            interactSign.SetActive(!interactSign.activeSelf);
+        }
+
     }
 
     public abstract void Interact();

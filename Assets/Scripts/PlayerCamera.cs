@@ -19,8 +19,8 @@ public class PlayerCamera : MonoBehaviour
 
     private void Awake()
     {
-        if (PlayerCamera.instance == null)
-            instance = this;
+        if (instance == null) instance = this;
+        else Destroy(gameObject);
     }
 
     private void Start()
