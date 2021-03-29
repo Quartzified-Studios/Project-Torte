@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf357680ca822324aac27679f472d696, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  text:
+  - Hi, im a test message!
+  - If you can read this then its working
+  - If you can not then...
+  - well, if you can't read this idk why im writing it
+  actor:
+  - {fileID: 11400000, guid: 15aac5625dd77094899f308913475e1e, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 4a226f07715934a438612b3ac4334cc1, type: 2}
+  - {fileID: 0}
