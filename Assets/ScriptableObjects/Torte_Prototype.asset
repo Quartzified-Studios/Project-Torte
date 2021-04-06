@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf357680ca822324aac27679f472d696, type: 3}
+  m_Name: Torte_Prototype
+  m_EditorClassIdentifier: 
+  text:
+  - Oh hey cutie.
+  - This is all we got for the prototype. But that does not mean that this is everything.
+  - Go look around in the Lab, maybe you will find something interresting.
+  actor:
+  - {fileID: 11400000, guid: 0e07d63af7c135645b0ddd621b65c506, type: 2}
+  - {fileID: 11400000, guid: 0e07d63af7c135645b0ddd621b65c506, type: 2}
+  - {fileID: 11400000, guid: 0e07d63af7c135645b0ddd621b65c506, type: 2}

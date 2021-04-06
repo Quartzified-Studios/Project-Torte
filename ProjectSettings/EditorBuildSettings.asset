@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SceneSwap_1.unity
-    guid: e0bb25f7c7d69ee45a8bc2cfbb66d83f
+    path: Assets/Scenes/Game/Lab.unity
+    guid: 1ac0456e3b96aa147a84e70cf6ba5371
   - enabled: 1
-    path: Assets/Scenes/SceneSwap_2.unity
-    guid: 3bacb86bcd8d3334988efd47b440773e
+    path: Assets/Scenes/Game/Outside_Lab.unity
+    guid: 920c55549c48d7547b22fd0f7f2ab13e
   m_configObjects: {}
