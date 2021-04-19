@@ -115,6 +115,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactSign: {fileID: 0}
   toPosition: {x: 30, y: -4}
+  fadeTo: 0.25
+  fadeHold: 0.25
 --- !u!1 &2676795897189753599
 GameObject:
   m_ObjectHideFlags: 0

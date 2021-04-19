@@ -114,3 +114,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactSign: {fileID: 0}
   sceneName: Lab
+  fadeTo: 1.5
+  fadeHold: 0.5
