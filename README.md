@@ -22,6 +22,8 @@ DO NOT ADD ANYTHING THAT DOES NOT NEED TO BE ADDED.
 
 We did not add wwise to the project nor will we personally ever consider it. Something as wwise seems mostly bloated to add and includes a lot of unnecessary complexity to everyone else who has access to the project. Even though it might be "used by a lot of people," that does not mean it should be used, especially since Unity already has such a system in place. Might not be as complex but, it has everything a game likes this would ever need.
 
+You know actually... just dont add any other 3rd party assets... everything should already be here.
+
 ## What have we done?
 
 We have as mentioned created the basic movement and interaction system. It should be very easy to understand. There is nothing complex going on as it is not required to be in any case. The Interaction system includes switching scene and doors a fade transition to mask the player teleportation. Also really easy to use.
